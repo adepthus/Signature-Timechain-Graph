@@ -156,7 +156,7 @@ python -m unittest discover tests
 
 ## Współtwórcy
 
-- [Twoje imię](https://github.com/twój-username)
+- [adepthus](https://github.com/adepthus)
 
 ## Licencja
 
