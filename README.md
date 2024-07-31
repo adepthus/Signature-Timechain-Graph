@@ -4,7 +4,7 @@
 
 
 # Signature-Timechain-Graphh
-Wszechstronne narzędzie do tworzenia, przetwarzania i zabezpieczania multimediów, sytetycznych danych z wykorzystaniem technologii timechain/blockchain
+Wszechstronne narzędzie do tworzenia, przetwarzania i zabezpieczania multimediów, syntetycznych danych z wykorzystaniem technologii timechain/blockchain
 
 ## Opis projektu
 
