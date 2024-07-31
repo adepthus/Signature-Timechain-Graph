@@ -163,10 +163,10 @@ python -m unittest discover tests
 Ten projekt jest licencjonowany na warunkach licencji MIT. Zobacz plik [LICENSE](LICENSE) dla szczegółów.
 
 
-Npisz program który Stworzeny plugin do zapisywania autentyczności trenowanych prywatnych modeli AI to innowacyjne zastosowanie naszego systemu Signature-Timechain-Graph. Opracujmy koncepcję takiego pluginu, który mógłby stać się częścią nowego uniwersalnego standardu w branży AI.
 
 
-DO ZASTOSOWANIA::
+
+:: DO ZASTOSOWANIA ::
 
 # Plugin zapisywania autentyczności trenowanych prywatnych modeli AI
 
