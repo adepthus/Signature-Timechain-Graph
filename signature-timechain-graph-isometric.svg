@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Tło -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  
+  <!-- Platforma centralna -->
+  <g id="platform">
+    <polygon points="400,300 650,175 400,50 150,175" fill="#d0d0d0" stroke="#000" stroke-width="2"/>
+    <polygon points="400,300 650,175 650,200 400,325" fill="#b0b0b0" stroke="#000" stroke-width="2"/>
+    <polygon points="400,300 150,175 150,200 400,325" fill="#c0c0c0" stroke="#000" stroke-width="2"/>
+  </g>
+  
+  <!-- Sieć blockchain -->
+  <g id="blockchain">
+    <polygon points="300,225 350,200 400,225 350,250" fill="#4CAF50" stroke="#000"/>
+    <polygon points="350,200 400,175 450,200 400,225" fill="#45a049" stroke="#000"/>
+    <polygon points="400,175 450,150 500,175 450,200" fill="#3d8b40" stroke="#000"/>
+    <polygon points="450,150 500,125 550,150 500,175" fill="#357a38" stroke="#000"/>
+    <line x1="325" y1="237" x2="375" y2="212" stroke="#000" stroke-width="2"/>
+    <line x1="375" y1="212" x2="425" y2="187" stroke="#000" stroke-width="2"/>
+    <line x1="425" y1="187" x2="475" y2="162" stroke="#000" stroke-width="2"/>
+  </g>
+  
+  <!-- System przechwytywania multimediów -->
+  <g id="multimedia-capture" transform="translate(200,150) scale(0.6)">
+    <rect x="0" y="0" width="150" height="120" rx="10" fill="#333"/>
+    <circle cx="75" cy="60" r="40" fill="#666"/>
+    <circle cx="75" cy="60" r="35" fill="#999"/>
+    <circle cx="75" cy="60" r="15" fill="#ccc"/>
+    <rect x="130" y="20" width="30" height="30" fill="#333"/>
+    <polygon points="10,100 70,80 140,100" fill="#ff4081" stroke="#000"/>
+  </g>
+  
+  <!-- System znakowania wodnego -->
+  <g id="watermarking" transform="translate(500,125) scale(0.6)">
+    <rect x="0" y="0" width="150" height="120" fill="#87CEEB" stroke="#000"/>
+    <path d="M30,30 Q75,90 120,30 T210,30" fill="none" stroke="#000" stroke-width="2"/>
+    <text x="75" y="70" font-family="Arial" font-size="24" text-anchor="middle" fill="#000">WM</text>
+    <rect x="20" y="80" width="110" height="30" fill="#4169E1" stroke="#000"/>
+    <text x="75" y="100" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">Encrypt</text>
+  </g>
+  
+  <!-- Strzałki przepływu danych -->
+  <g id="data-flow" stroke="#000" stroke-width="2" fill="none">
+    <path d="M280,200 Q340,170 400,200" marker-end="url(#arrowhead)"/>
+    <path d="M520,200 Q460,170 400,200" marker-end="url(#arrowhead)"/>
+    <path d="M400,200 L400,225" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Definicja znacznika strzałki -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+  
+  <!-- Ikony zastosowań -->
+  <g id="applications">
+    <g transform="translate(150,400) scale(0.8)">
+      <circle cx="0" cy="0" r="40" fill="#FFD700"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12">Media</text>
+      <path d="M-20,-10 L20,-10 L20,10 L-20,10 Z M-15,-5 L-15,5 L5,5 L5,-5 Z" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+    
+    <g transform="translate(275,475) scale(0.8)">
+      <circle cx="0" cy="0" r="40" fill="#FF6347"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12">Prawo</text>
+      <path d="M-20,-20 L20,-20 M0,-20 L0,20 M-20,20 L20,20" fill="none" stroke="#000" stroke-width="2"/>
+      <circle cx="0" cy="-10" r="5" fill="#000"/>
+    </g>
+    
+    <g transform="translate(400,500) scale(0.8)">
+      <circle cx="0" cy="0" r="40" fill="#4169E1"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12">Sztuka</text>
+      <path d="M-15,-15 Q0,-30 15,-15 Q30,0 15,15 Q0,30 -15,15 Q-30,0 -15,-15" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+    
+    <g transform="translate(525,475) scale(0.8)">
+      <circle cx="0" cy="0" r="40" fill="#32CD32"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12">IP</text>
+      <path d="M-15,-15 L15,15 M-15,15 L15,-15" fill="none" stroke="#000" stroke-width="2"/>
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+    
+    <g transform="translate(650,400) scale(0.8)">
+      <circle cx="0" cy="0" r="40" fill="#BA55D3"/>
+      <text x="0" y="5" text-anchor="middle" font-family="Arial" font-size="12">Nauka</text>
+      <path d="M-20,0 Q0,-20 20,0 Q0,20 -20,0" fill="none" stroke="#000" stroke-width="2"/>
+      <circle cx="0" cy="0" r="5" fill="#000"/>
+    </g>
+  </g>
+  
+  <!-- Linie łączące zastosowania z platformą -->
+  <g id="application-connections" stroke="#000" stroke-width="1" stroke-dasharray="5,5">
+    <line x1="150" y1="400" x2="300" y2="275"/>
+    <line x1="275" y1="475" x2="350" y2="300"/>
+    <line x1="400" y1="500" x2="400" y2="325"/>
+    <line x1="525" y1="475" x2="450" y2="300"/>
+    <line x1="650" y1="400" x2="500" y2="275"/>
+  </g>
+  
+  <!-- Elementy dekoracyjne -->
+  <g id="decorative-elements">
+    <circle cx="400" cy="300" r="100" fill="none" stroke="#000" stroke-width="0.5" stroke-dasharray="5,5"/>
+    <path d="M350,170 Q400,150 450,170" fill="none" stroke="#000" stroke-width="0.5"/>
+    <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Signature-Timechain-Graph</text>
+  </g>
+</svg>
